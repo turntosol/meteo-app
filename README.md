@@ -52,7 +52,3 @@ npm install
 # Chạy ứng dụng ở chế độ phát triển
 npm run dev
 ```
-> [!IMPORTANT]
-> **Tài khoản admin:
-> - **Username:** `admin`
-> - **Password:** `admin123` 
