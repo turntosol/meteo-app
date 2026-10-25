@@ -21,44 +21,44 @@
 
 ### 1. Cấu hình Backend (Django)
 
-# Truy cập thư mục backend
+## Truy cập thư mục backend
 ```bash
 cd backend
 ```
 
-# Khởi tạo và kích hoạt môi trường ảo
+## Khởi tạo và kích hoạt môi trường ảo
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-# Cài đặt các thư viện cần thiết
+## Cài đặt các thư viện cần thiết
 ```bash
 pip install -r requirements.txt
 ```
 
-# Cấu hình biến môi trường trong file .env
+## Cấu hình biến môi trường trong file .env
 
-# Chạy migration để đồng bộ database
+## Chạy migration để đồng bộ database
 ```bash
 python manage.py migrate
 ```
 
-# Khởi chạy server
+## Khởi chạy server
 ```bash
 python manage.py runserver
 ```
 
 ### 2. Cấu hình Frontend (Next.js)
 
-# Truy cập thư mục frontend
+## Truy cập thư mục frontend
 
-# Cài đặt dependencies
+## Cài đặt dependencies
 ```bash
 npm install
 ```
 
-# Chạy ứng dụng ở chế độ phát triển
+## Chạy ứng dụng ở chế độ phát triển
 ```bash
 npm run dev
 ```
