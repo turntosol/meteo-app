@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 #### Cấu hình biến môi trường trong file .env
 
-## Chạy migration để đồng bộ database
+#### Chạy migration để đồng bộ database
 ```bash
 python manage.py migrate
 ```
