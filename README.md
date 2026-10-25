@@ -12,9 +12,9 @@
 * **Tối ưu hóa dữ liệu:** Sử dụng Supabase để lưu trữ và truy vấn dữ liệu nhanh chóng.
 
 ## 🛠️ Công nghệ sử dụng
-* **Frontend:** Next.js, Tailwind CSS, Leaflet (hiển thị bản đồ).
+* **Frontend:** Next.js, Tailwind CSS, Leaflet.
 * **Backend:** Django, Django REST Framework.
-* **Database:** PostgreSQL (Hosted on **Supabase**).
+* **Database:** PostgreSQL.
 * **Deployment:** Vercel (Frontend), Railway.app (Backend).
 
 ## 💻 Hướng dẫn chạy dự án (Local Development)
@@ -27,15 +27,13 @@ cd backend
 
 # Khởi tạo và kích hoạt môi trường ảo
 python -m venv venv
-# Windows:
 venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
 
 # Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
 
-# Cấu hình biến môi trường trong file .env (Sử dụng Connection String từ Supabase)
+# Cấu hình biến môi trường trong file .env
+
 # Chạy migration để đồng bộ database
 python manage.py migrate
 
