@@ -20,33 +20,45 @@
 ## 💻 Hướng dẫn chạy dự án (Local Development)
 
 ### 1. Cấu hình Backend (Django)
-Yêu cầu: Đã cài đặt Python 3.x.
-```bash
+
 # Truy cập thư mục backend
+```bash
 cd backend
+```
 
 # Khởi tạo và kích hoạt môi trường ảo
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 # Cài đặt các thư viện cần thiết
+```bash
 pip install -r requirements.txt
+```
 
 # Cấu hình biến môi trường trong file .env
 
 # Chạy migration để đồng bộ database
+```bash
 python manage.py migrate
+```
 
 # Khởi chạy server
+```bash
 python manage.py runserver
 ```
+
 ### 2. Cấu hình Frontend (Next.js)
-```bash
+
 # Truy cập thư mục frontend
 
 # Cài đặt dependencies
+```bash
 npm install
+```
 
 # Chạy ứng dụng ở chế độ phát triển
+```bash
 npm run dev
 ```
