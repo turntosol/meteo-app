@@ -1,6 +1,6 @@
 # Weather App - Hệ thống WebGIS Dự báo Thời tiết
 
-**Weather App** là một ứng dụng WebGIS hiện đại được xây dựng để cung cấp dữ liệu khí tượng trực quan và dự báo thời tiết chính xác. Dự án tận dụng sức mạnh của **Django REST Framework** ở phía backend và **Next.js** ở frontend để mang lại trải nghiệm người dùng nhanh chóng và mượt mà.
+**Weather App** là một ứng dụng được xây dựng để cung cấp dữ liệu khí tượng trực quan và dự báo thời tiết theo thời gian thực. 
 
 ## Key Features
 * **Bản đồ thời tiết:** Hiển thị vị trí và dữ liệu từ các trạm khí tượng (theo tỉnh thành) trên nền bản đồ tương tác.
