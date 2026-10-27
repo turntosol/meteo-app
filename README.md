@@ -38,6 +38,7 @@ pip install -r requirements.txt
 
 #### Chạy migration để đồng bộ database
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -55,7 +56,7 @@ python manage.py runserver
 npm install
 ```
 
-#### Chạy ứng dụng ở chế độ phát triển
+#### Chạy localhost
 ```bash
 npm run dev
 ```
