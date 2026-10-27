@@ -14,7 +14,7 @@
 * **Database:** PostgreSQL.
 * **Deployment:** Vercel, Railway.app.
 
-## 💻 Hướng dẫn chạy dự án (Local Development)
+## Local Development
 
 ### 1. Cấu hình Backend (Django)
 
