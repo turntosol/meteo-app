@@ -2,17 +2,17 @@
 
 **Weather App** là một ứng dụng WebGIS hiện đại được xây dựng để cung cấp dữ liệu khí tượng trực quan và dự báo thời tiết chính xác. Dự án tận dụng sức mạnh của **Django REST Framework** ở phía backend và **Next.js** ở frontend để mang lại trải nghiệm người dùng nhanh chóng và mượt mà.
 
-## 🚀 Tính năng chính
+## Key Features
 * **Bản đồ thời tiết:** Hiển thị vị trí và dữ liệu từ các trạm khí tượng (theo tỉnh thành) trên nền bản đồ tương tác.
 * **Dự báo chi tiết:** Xem dự báo thời tiết theo giờ, theo ngày (7 ngày và 16 ngày).
-* **Quản trị hệ thống:** Giao diện Admin cho phép quản lý tài khoản người dùng, cấu hình các lớp dữ liệu (layers), 
+* **Quản trị hệ thống:** Giao diện Admin cho phép quản lý tài khoản người dùng, cấu hình các lớp dữ liệu.  
 * **Tối ưu hóa dữ liệu:** Sử dụng Supabase để lưu trữ và truy vấn dữ liệu nhanh chóng.
 
-## 🛠️ Công nghệ sử dụng
+## Tech Stack
 * **Frontend:** Next.js, Tailwind CSS, Leaflet.
 * **Backend:** Django, Django REST Framework.
 * **Database:** PostgreSQL.
-* **Deployment:** Vercel (Frontend), Railway.app (Backend).
+* **Deployment:** Vercel, Railway.app.
 
 ## 💻 Hướng dẫn chạy dự án (Local Development)
 
