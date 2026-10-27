@@ -12,8 +12,7 @@
 ## Tech Stack
 * **Frontend:** Next.js, Tailwind CSS, Leaflet.
 * **Backend:** Django, Django REST Framework.
-* **Database:** PostgreSQL.
-* **Deployment:** Vercel, Railway.app.
+* **Database:** Supabase (PostgreSQL)
 
 ## Local Development
 
