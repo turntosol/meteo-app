@@ -3,6 +3,7 @@
 **Weather App** là một ứng dụng được xây dựng để cung cấp dữ liệu khí tượng trực quan và dự báo thời tiết theo thời gian thực. 
 
 ## Key Features
+* **Dữ liệu thời tiết Real-Time:** Tích hợp Open-Meteo API để lấy dữ liệu thời tiết hiện tại và cập nhật thông tin khí tượng theo thời gian thực.
 * **Bản đồ thời tiết:** Hiển thị vị trí và dữ liệu từ các trạm khí tượng (theo tỉnh thành) trên nền bản đồ tương tác.
 * **Dự báo chi tiết:** Xem dự báo thời tiết theo giờ, theo ngày (7 ngày và 16 ngày).
 * **Quản trị hệ thống:** Giao diện Admin cho phép quản lý tài khoản người dùng, cấu hình các lớp dữ liệu.  
